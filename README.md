@@ -14,9 +14,9 @@ Dự án được xây dựng với ba mục tiêu cốt lõi:
 Dự án được tổ chức với cấu trúc tập tin như sau:
 
 ```text
-ai-agent-it-insights/
+agent-ai-recommendations/
 │
-├── app.py                                      # Mã nguồn chính của ứng dụng Streamlit (chứa giao diện và logic phân tích)
+├── app_ai_agent.py                                      # Mã nguồn chính của ứng dụng Streamlit (chứa giao diện và logic phân tích)
 ├── requirements.txt                            # Danh sách các thư viện Python cần thiết để chạy dự án
 ├── .gitignore                                  # Khai báo các tập tin/thư mục không cần đẩy lên GitHub (vd: .venv, __pycache__)
 │
