@@ -16,9 +16,10 @@ Dự án được tổ chức với cấu trúc tập tin như sau:
 ```text
 agent-ai-recommendations/
 │
-├── app_ai_agent.py                                      # Mã nguồn chính của ứng dụng Streamlit (chứa giao diện và logic phân tích)
+├── app_ai_agent.py                             # Mã nguồn chính của ứng dụng Streamlit (chứa giao diện và logic phân tích)
 ├── requirements.txt                            # Danh sách các thư viện Python cần thiết để chạy dự án
 ├── .gitignore                                  # Khai báo các tập tin/thư mục không cần đẩy lên GitHub (vd: .venv, __pycache__)
+├── data_description.md                         # Mô tả ý nghĩa các cột có trong bộ dữ liệu
 │
 ├── task_statement_with_metadata.csv            # Dữ liệu O*NET về danh mục tác vụ theo từng nhóm nghề nghiệp
 ├── domain_worker_metadata.csv                  # Dữ liệu về hồ sơ kinh nghiệm và tần suất sử dụng LLM của nhân sự IT
